@@ -93,7 +93,7 @@ img {
     align-items: center;
 }
 
-.mine-nav {
+.container.mine-nav {
     display: flex;
     align-items: center;
 }
@@ -117,12 +117,14 @@ img {
     padding-top: 32px;
     padding-bottom: 32px;
     margin-left: 93px;
+    gap: 50px;
 }
 
 .site-contacts {
     display: flex;
     margin-left: auto;
     align-items: center;
+    gap: 50px;
 }
 
 .site-nav .link {
@@ -139,11 +141,11 @@ img {
 }
 
 .site-nav>.item:not(:last-child) {
-    margin-right: 50px;
+    gap: 50px;
 }
 
 .site-contacts>.item:not(:last-child) {
-    margin-right: 50px;
+    gap: 50px;
 }
 
 a.link.current {
@@ -197,7 +199,7 @@ a.link.current {
     background-image: linear-gradient(to right,
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
-        url(../images/bcg.img.jpg);
+        url(../images/Img.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -235,6 +237,7 @@ a.link.current {
 
 .benefits-item {
     display: flex;
+    padding: 94px 0;
 }
 
 .icon-item {
